@@ -1,4 +1,9 @@
 @charset "UTF-8";
+body {
+  background-color: rgba(183, 246, 252, 0.822);
+  font-family: "Mitr", sans-serif;
+}
+
 .navbar {
   display: flex;
   justify-content: space-evenly;
