@@ -1,8 +1,6 @@
 footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.63);
+    @include flex-k (space-between,center);
+    background-color: $blanco;
     padding: 20px 40px;
 }
 

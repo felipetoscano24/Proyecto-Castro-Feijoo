@@ -49,9 +49,8 @@
     }
 
     .redes-sociales{
-        display: flex;
+        @include flex-k (space-evenly,none);
         flex-direction: wrap;
-        justify-content: space-evenly;
         padding-bottom: 15px;
 
         a{

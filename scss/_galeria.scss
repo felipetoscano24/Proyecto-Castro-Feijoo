@@ -3,8 +3,7 @@ main{
 }
 
 h1{
-    font-size: 35px;
-    font-family: 'Arimo', sans-serif;
+    @include titulo-principal;
 }
 
 .info-empresa{
@@ -20,21 +19,16 @@ h1{
         margin-left: 60px;
         height: 450px;
         width: 1200px;  
-        border: 4px solid rgba(21, 107, 156, 0.534);
-        border-radius: 10px;
+        @include borde;
     }
 }
 
 p{
-    font-size: 20px;
-    font-family: 'Hind', sans-serif;
+    @include parrafo;
 }
 
 h2{
-    font-size: 32px;
-    font-family: 'Arimo', sans-serif;
-    text-align: center;
-    margin: 40PX;
+    @include titulo-secundario;
 }
 
 .col {
@@ -42,8 +36,7 @@ h2{
         height: 25vh;
         width: 40vh; 
         //hacer un mixin 
-        border: 4px solid rgba(21, 107, 156, 0.534);
-        border-radius: 10px;
+        @include borde;
         //mixin
     }
 
