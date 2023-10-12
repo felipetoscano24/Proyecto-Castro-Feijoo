@@ -35,13 +35,14 @@ h2{
     img{
         height: 25vh;
         width: 40vh; 
+        margin-bottom: 25px;
         //hacer un mixin 
         @include borde;
         //mixin
     }
 
     p{
-        padding: 25px 0px;
+        padding-bottom: 25px;
         text-align: center;
     }
 }
