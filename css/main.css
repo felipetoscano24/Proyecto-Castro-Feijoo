@@ -273,7 +273,7 @@ footer {
   .empresa img {
     margin: 0px 0px 30px;
     height: auto;
-    width: 250px;
+    width: 300px;
   }
   h2 {
     font-size: 27px;
@@ -320,8 +320,8 @@ footer {
     padding: 25px 0px;
   }
   .principios img {
-    height: 250px;
-    width: auto;
+    width: 300px;
+    height: auto;
     margin-right: 0px;
   }
   .principios-2 {
@@ -332,7 +332,7 @@ footer {
     padding-bottom: 25px;
   }
   .principios-2 img {
-    width: 200px;
+    width: 300px;
     height: auto;
     margin-left: 0px;
   }
@@ -344,8 +344,8 @@ footer {
     padding: 25px 0px;
   }
   .principios-3 img {
-    width: 200px;
-    height: auto;
+    height: 250px;
+    width: 380px;
   }
   .principios-3-info {
     margin-left: 0px;
