@@ -7,8 +7,8 @@
     }
 
     img{
-        height: 450px;
-        width: 800px;
+        height: 350px;
+        width: 600px;
         margin-right: 60px;
         @include borde;
     }
@@ -19,8 +19,8 @@
         padding: 50px;
 
         img{
-            height: 450px;
-            width: 800px;
+            height: 350px;
+            width: 600px;
             margin-left: 60px;
             @include borde;
         }
@@ -31,7 +31,7 @@
         padding: 80px 50px 0px;
 
         img{
-            height: 450px;
+            height: 350px;
             width: auto;
             @include borde;
         }
