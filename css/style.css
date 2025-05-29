@@ -158,6 +158,13 @@ footer{
     font-size: small;
 }
 
+/*PÁGINA NOSOTROS*/
+
+.nosotros-cuadro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 /*PÁGINA NUESTRA HISTORIA*/
 
 .principios h1{

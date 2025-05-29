@@ -1,18 +1,16 @@
 @charset "UTF-8";
 body {
-  background-color: rgba(183, 246, 252, 0.822);
-  font-family: "Mitr", sans-serif;
+  background-color: #f2e3d3;
 }
 
 .navbar {
   display: flex;
   justify-content: space-evenly;
-  padding: 18px 0;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.185);
-  border-radius: 10px;
-  box-shadow: 0px 0px 200px;
-  position: static;
+  background-color: rgba(91, 91, 91, 0.038);
+  box-shadow: 0px 0px 10px;
+  position: sticky;
+  top: 0;
 }
 .navbar-collapse {
   flex-grow: 0;
@@ -22,32 +20,32 @@ body {
   align-items: center;
   height: 60px;
   margin-left: 0px;
+  padding: 5px;
 }
 
 .menu-navegacion {
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  gap: 20px;
 }
 .menu-navegacion li {
   list-style: none;
 }
 .menu-navegacion a:hover {
-  background-color: rgba(240, 248, 255, 0.486);
-  color: black;
+  color: #453423;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #836343;
 }
 
 .icono-navegador {
   font-weight: 700;
   font-family: "Hind", sans-serif;
-  padding: 12px;
   margin-right: 35px;
-  background-color: rgba(79, 99, 110, 0.082);
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .icono-navegador-actual {
   font-weight: 750;
@@ -62,12 +60,13 @@ a {
 }
 
 main {
-  margin: 100px 0px;
+  margin: 50px 0px;
 }
 
 h1 {
-  font-size: 35px;
-  font-family: "Arimo", sans-serif;
+  font-size: 55px;
+  font-family: 'Abraham Lincoln', sans-serif;
+  margin-bottom: 20px;
 }
 
 .info-empresa {
@@ -81,29 +80,30 @@ h1 {
 }
 .empresa img {
   margin-left: 60px;
-  height: 450px;
-  width: 1200px;
-  border: 4px solid rgba(21, 107, 156, 0.377);
+  height: 25vw;
+  width: auto;
+  border: 3px solid #53594c;
   border-radius: 15px;
 }
 
 p {
   font-size: 20px;
-  font-family: "Hind", sans-serif;
+  font-family: 'D-DIN', sans-serif;
 }
 
 h2 {
   font-size: 32px;
-  font-family: "Arimo", sans-serif;
+  font-family: 'DINPro-Bold', sans-serif;
   text-align: center;
   margin: 40PX;
 }
 
 .col img {
-  height: 25vh;
-  width: 40vh;
+  height: 35vh;
+  width: 52vh;
+  object-fit: cover;
   margin-bottom: 25px;
-  border: 4px solid rgba(21, 107, 156, 0.377);
+  border: 3px solid #53594c;
   border-radius: 15px;
 }
 .col p {
@@ -147,19 +147,23 @@ footer {
   text-align: right;
   font-size: small;
 }
-
+.text-center.px-3{
+  padding: 0px 70px 40px !important;
+}
 .principios {
   display: flex;
   padding: 20px 50px 100px;
 }
-.principios h1 {
+.principios h2, .principios-2 h2, .principios-3 h2 {
   display: block;
+  text-align: left !important;
+  margin: 0px 0px 20px;
 }
 .principios img {
   height: 350px;
   width: 600px;
   margin-right: 60px;
-  border: 4px solid rgba(21, 107, 156, 0.377);
+  border: 3px solid #53594c;
   border-radius: 15px;
 }
 .principios-2 {
@@ -171,7 +175,7 @@ footer {
   height: 350px;
   width: 600px;
   margin-left: 60px;
-  border: 4px solid rgba(21, 107, 156, 0.377);
+  border: 3px solid #164e43;
   border-radius: 15px;
 }
 .principios-3 {
@@ -181,7 +185,7 @@ footer {
 .principios-3 img {
   height: 350px;
   width: auto;
-  border: 4px solid rgba(21, 107, 156, 0.377);
+  border: 3px solid #53594c;
   border-radius: 15px;
 }
 .principios-3-info {
@@ -198,7 +202,7 @@ footer {
 }
 .ganaderia p {
   text-align: center;
-  margin: 40px 30px 70px;
+  margin: 40px 70px 70px;
 }
 
 .grid-container {
@@ -210,7 +214,7 @@ footer {
   margin: 60px 50px;
 }
 .grid-container .grid-item img {
-  border: 4px solid rgba(21, 107, 156, 0.377);
+  border: 3px solid #53594c;
   border-radius: 15px;
 }
 .grid-container .grid-item img:hoover {
@@ -223,14 +227,14 @@ footer {
 }
 
 .body-contacto {
-  background-image: url(/img/vacas.png);
+  background-image: url(/img/empresa.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .contacto {
   margin: 0px 40px 80px;
-  text-align: center;
+  text-align: left;
 }
 .contacto h1 {
   margin-bottom: 20px;
